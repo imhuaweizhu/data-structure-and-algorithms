@@ -76,6 +76,12 @@ from https://www.bigocheatsheet.com/
 
 <img width="600" alt="Screen-Shot-2021-01-24-at-5 47 31-PM" src="https://user-images.githubusercontent.com/34038625/110535836-c1631500-80ee-11eb-8932-18538bbeecea.png">
 
+## Types of algorithms based on usage
+
+### Sorting
+### Searching
+### Graph
+
 ## Patterns of algorithms
 
 By Ray Toal, a Professor of Computer Science at Loyola Marymount University 
