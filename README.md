@@ -76,11 +76,6 @@ from https://www.bigocheatsheet.com/
 
 <img width="600" alt="Screen-Shot-2021-01-24-at-5 47 31-PM" src="https://user-images.githubusercontent.com/34038625/110535836-c1631500-80ee-11eb-8932-18538bbeecea.png">
 
-## Types of algorithms based on usage
-
-### Sorting
-### Searching
-### Graph
 
 ## Patterns of algorithms
 
@@ -166,4 +161,8 @@ Playing tricks with the input (input enhancement) or building up a cache (prestr
 For examples: Table of counts for counting sort, Boyer-Moore pattern matching, Storing often used data in a hashtable, Store often used data in a search tree (B-tree, BST, Red-black, ...), Heapify, prior to heapsort
 
 
+## Types of algorithms based on usage
 
+### Sorting
+### Searching
+### Graph
