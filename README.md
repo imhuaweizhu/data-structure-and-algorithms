@@ -46,9 +46,9 @@ Not predefined in programming languages. They can be implemented with the help o
 
 #### 1. Linear: The data items are arranged in a sequential manner.
 ##### (1) static: the length (maximum number of elements that can be stored) is fixed.
-###### array
+###### ----- Array
 ##### (2) dynamic: the length (maximum number of elements that can be stored) increases or decreases in real time.
-###### Linked List, Stack, Queue
+###### ----- Linked List, Stack, Queue
 
 #### 2. Nonlinear: The data items are not arranged in a sequential manner (e.g. a random manner)
 
