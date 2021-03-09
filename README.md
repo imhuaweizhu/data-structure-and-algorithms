@@ -35,6 +35,9 @@ A data structure to be efficient in some operations and inefficient in others. Y
 ## Types of data structures
 from https://techieshouts.com/types-of-data-structures/
 
+![Screen-Shot-2021-01-24-at-12 59 27-PM-1170x704](https://user-images.githubusercontent.com/34038625/110526560-f0c05480-80e3-11eb-8262-3240aba2af15.png)
+
+
 ### Primitive Data Structure
 Predefined data types. They are supported by all programming languages. All the programming languages like java, c#, or any object-oriented programming language are all inherited from C and C++. For example:
 
@@ -50,6 +53,6 @@ Not predefined in programming languages. They can be implemented with the help o
 ##### (2) dynamic: the length (maximum number of elements that can be stored) increases or decreases in real time.
 ###### ----- Linked List, Stack, Queue
 
-#### 2. Nonlinear: The data items are not arranged in a sequential manner (e.g. a random manner)
-
+#### 2. Nonlinear: The data items are NOT arranged in a sequential manner (e.g. a random manner)
+###### ----- Hash table, Tree, Graph
 
