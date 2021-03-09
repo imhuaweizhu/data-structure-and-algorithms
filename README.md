@@ -1,6 +1,4 @@
-# data-structure-and-algorithms
-C++ implementation of data structures and algorithms
-
+# Data Structure
 
 ## The top data structures you should know for your next coding interview 
 from https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
@@ -56,7 +54,17 @@ Not predefined in programming languages. They can be implemented with the help o
 #### 2. Nonlinear: The data items are NOT arranged in a sequential manner (e.g. a random manner)
 ###### ----- Hash table, Tree, Graph
 
+
 ### The picture below shows how these data structures look like.
 from https://www.hellocodeclub.com/when-to-use-which-data-structure-top-6-data-structures/
 
 ![wp1](https://user-images.githubusercontent.com/34038625/110526836-4a288380-80e4-11eb-8478-ebb8948bc681.jpg)
+
+
+
+# Algorithms
+
+## Aymptotic notations for algorithms
+from https://algs4.cs.princeton.edu/cheatsheet/
+<img width="902" alt="Screen-Shot-2021-01-24-at-3 02 10-PM" src="https://user-images.githubusercontent.com/34038625/110528531-3ed65780-80e6-11eb-982b-67e68e38398e.png">
+
