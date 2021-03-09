@@ -14,7 +14,7 @@ from https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-f
 7. Tries (they are effectively trees, but it’s still good to call them out separately).
 8. Hash Tables
 
-## A Data structure is a collection of
+## A Data structure is composed of 
 from https://en.wikipedia.org/wiki/Data_structure
 
 1. A collection of data items.
@@ -45,6 +45,10 @@ Integer, Float, Char, Boolean, Pointer
 Not predefined in programming languages. They can be implemented with the help of primitive data types.
 
 #### 1. Linear: The data items are arranged in a sequential manner.
+##### (1) static: the length (maximum number of elements that can be stored) is fixed.
+###### array
+##### (2) dynamic: the length (maximum number of elements that can be stored) increases or decreases in real time.
+###### Linked List, Stack, Queue
 
 #### 2. Nonlinear: The data items are not arranged in a sequential manner (e.g. a random manner)
 
