@@ -80,6 +80,6 @@ from https://www.bigocheatsheet.com/
 By Ray Toal, a Professor of Computer Science at Loyola Marymount University 
 from https://cs.lmu.edu/~ray/notes/algpatterns/
 
-1. Brute Force: <span style="color:blue">some *blue* text</span>.Enumerate all possible solutions, unintelligently, and try them all until you find a solution. Not really a “pattern”. You could in theory, do Traveling Salesperson, Knapsack, or Subset Sum this way, but don’t.
-2. Divide and Conquer: <span style="color:red">some **This is Red Bold.** text</span> Breaking down a problem into multiple independent subproblems, solving the subproblems (recursively), and combining those solutions into a solution for the original problem. e.g. Mergesort, quicksort, Matrix Multiplication, FFT, Nearest Neighbors etc.
+1. Brute Force: Enumerate all possible solutions, unintelligently, and try them all until you find a solution. Not really a “pattern”. You could in theory, do Traveling Salesperson, Knapsack, or Subset Sum this way, but don’t.
+2. Divide and Conquer: Breaking down a problem into multiple independent subproblems, solving the subproblems (recursively), and combining those solutions into a solution for the original problem. e.g. Mergesort, quicksort, Matrix Multiplication, FFT, Nearest Neighbors etc.
 3. 
