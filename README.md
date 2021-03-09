@@ -33,7 +33,7 @@ A data structure to be efficient in some operations and inefficient in others. Y
 4. Search: Find a particular data item in the given data structure.
 
 ## Types of data structures
-from https://techieshouts.com/types-of-data-structures/
+Modified based on a picture from https://techieshouts.com/types-of-data-structures/
 
 <img src="https://user-images.githubusercontent.com/34038625/110526560-f0c05480-80e3-11eb-8262-3240aba2af15.png" width="400" height="250">
 
