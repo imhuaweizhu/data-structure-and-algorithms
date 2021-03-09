@@ -66,5 +66,5 @@ from https://www.hellocodeclub.com/when-to-use-which-data-structure-top-6-data-s
 
 ## Aymptotic notations for algorithms
 from https://algs4.cs.princeton.edu/cheatsheet/
-<img width="902" alt="Screen-Shot-2021-01-24-at-3 02 10-PM" src="https://user-images.githubusercontent.com/34038625/110528531-3ed65780-80e6-11eb-982b-67e68e38398e.png">
+<img width="600" alt="Screen-Shot-2021-01-24-at-3 02 10-PM" src="https://user-images.githubusercontent.com/34038625/110528531-3ed65780-80e6-11eb-982b-67e68e38398e.png">
 
