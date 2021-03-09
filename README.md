@@ -91,6 +91,12 @@ Solving a problem by doing the "best looking" thing at each step. (May miss a so
 
 For example: Minimum Spanning Trees, Huffman Compression, Dijkstra’s Shortest Path and etc.
 
+### Dynamic Programming
+
+Solving an optimization problem by breaking down a problem into multiple **overlapping** subproblems, not independent ones. Solve the subproblems (recursively), and combine those solutions into a solution for the original problem. **The idea is to cache the results of overlapping subproblems**. Can be done bottom up (table construction) or top-down (recursive with memoization). 
+
+For example: Integer knapsack, Traveling salesperson and etc.
+
 ### Divide and Conquer
 
 Breaking down a problem into multiple **independent** subproblems, solving the subproblems (recursively), and combining those solutions into a solution for the original problem. 
@@ -102,12 +108,6 @@ For example: Mergesort, quicksort, Matrix Multiplication, FFT, Nearest Neighbors
 A variant of divide and conquer, where the problem is broken down into **one** subproblem, not multiple subproblems. 
 
 For example: Binary search, Selection Sort, Factorial, Topological Sort and etc.
-
-### Dynamic Programming
-
-Solving an optimization problem by breaking down a problem into multiple **overlapping** subproblems, not independent ones. Solve the subproblems (recursively), and combine those solutions into a solution for the original problem. **The idea is to cache the results of overlapping subproblems**. Can be done bottom up (table construction) or top-down (recursive with memoization). 
-
-For example: Integer knapsack, Traveling salesperson and etc.
 
 ### Backtracking
 
