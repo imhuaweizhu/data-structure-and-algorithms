@@ -131,13 +131,13 @@ For examples, Neural network training, Finite element updating and etc.
 
 #### 1. Las Vegas
 
-A **randomized** algorithm that always produces the correct answer but makes **no guarantees on how long** it will run or how much space it will need (in the worst case).
+A **randomized** algorithm that always produces the **correct answer** but makes **no time or space guarantees** it needs (in the worst case).
 
 Used as a defense against algorithm complexity attacks. For example: Finding a value in a collection, Randomized Quicksort
 
 #### 2. Monte Carlo
 
-A **randomized** algorithm that has time and space guarantees but has a small probablility of giving the wrong answer(But Las Vegas can guarantee giving the right answer). The probability of error can be reduced by running the algorithm longer.
+A randomized algorithm that has **time and space guarantees** but has a small probablility of giving the **wrong answer**(But Las Vegas can guarantee giving the right answer). The probability of error can be reduced by running the algorithm longer.
 
 Used when all known deterministic algorithms for a problem are too slow, or when **estimation** is an inherent part of the problem. For examples: Miller-Rabin primality test, Approximating π (by throwing darts), Approximating integrals
 Game playing.
