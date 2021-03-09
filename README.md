@@ -76,4 +76,10 @@ from https://www.bigocheatsheet.com/
 
 <img width="600" alt="Screen-Shot-2021-01-24-at-5 47 31-PM" src="https://user-images.githubusercontent.com/34038625/110535836-c1631500-80ee-11eb-8932-18538bbeecea.png">
 
+## Patterns of algorithms
+By Ray Toal, a Professor of Computer Science at Loyola Marymount University 
+from https://cs.lmu.edu/~ray/notes/algpatterns/
 
+1. Brute Force: <span style="color:blue">some *blue* text</span>.Enumerate all possible solutions, unintelligently, and try them all until you find a solution. Not really a “pattern”. You could in theory, do Traveling Salesperson, Knapsack, or Subset Sum this way, but don’t.
+2. Divide and Conquer: Breaking down a problem into multiple independent subproblems, solving the subproblems (recursively), and combining those solutions into a solution for the original problem. e.g. Mergesort, quicksort, Matrix Multiplication, FFT, Nearest Neighbors etc.
+3. 
