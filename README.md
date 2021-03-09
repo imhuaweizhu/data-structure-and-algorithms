@@ -37,9 +37,9 @@ Modified based on a picture from https://techieshouts.com/types-of-data-structur
 
 
 ### Primitive Data Structure
-Predefined data types. They are supported by all programming languages. All the programming languages like java, c#, or any object-oriented programming language are all inherited from C and C++. For example:
+Predefined data types. They are supported by all programming languages. All the programming languages like java, c#, or any object-oriented programming language are all inherited from C and C++. 
 
-Integer, Float, Char, Boolean, Pointer
+For example: Integer, Float, Char, Boolean, Pointer
 
 ### Non-primitive Data Structure
 
