@@ -49,7 +49,11 @@ void std_array()
 }
 
 
+
 // dynamic array, which is defined as std::vector 
+// std::array and std::vector are different
+// Elements in std::array are arranged in a contiguous memory allocation, std::array has fixed size
+// std::vector is dynamic memory allocated, size increases with insertion of elements.
 void std_vector()
 {
   
@@ -75,15 +79,14 @@ int main ()
   // two ways to create an array in C++
   
   // first way
+  // static linear data structure, fixed size
   build_in_array();
   
   // second way
+  // static linear data structure, fixed size
   std_array();
   
-  // std::array and std::vector are different
-  // Elements in std::array are arranged in a contiguous memory allocation, std::array has fixed size
-  // std::vector is dynamic memory allocated, size increases with insertion of elements.
-
+  // dynamic size
   std_vector();
   
   // return
