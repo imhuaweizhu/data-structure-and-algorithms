@@ -5,13 +5,14 @@
 void build_in_array()
 {
   // Initialize an array
-  int foo[4] = {16, 2, 77, 40};
+  int test_array[4] = {16, 2, 77, 40};
   
   // Get the length of an array
-  int len = sizeof(foo)/sizeof(foo[0]);
+  int len = sizeof(test_array)/sizeof(test_array[0]);
+  
   
   // Print out the array
-  for ( int x : foo)
+  for ( int x : test_array)
   {
     std::cout <<x<< ",";
   }
@@ -19,17 +20,21 @@ void build_in_array()
 }
 
 // Container library array
+// More detail about this can be found at https://en.cppreference.com/w/cpp/container/array
 void std_array()
 {
   // Initialize an array
-  std::array<int,3> myarray{10,20,30};
-  
+  std::array<int,3> test_array{10,20,30};
+
+  // Get the length of an array
+  int len = test_array.size();
+
   //print out the array
-  for (int x : myarray)
+  for (int x : test_array)
   {
     std::cout << x << ',';
   }
-  std::cout << "\n";
+  std::cout<< "\n";
 }
 
 /*==================================
