@@ -10,6 +10,7 @@ void print(InputIterator start, InputIterator end)
 {
     for(auto itr=start;itr!=end;++itr)
     {
+        //print the element giving the address of element, pay attention to the "*" sign.
         std::cout<<*itr<<", ";
     }
     std::cout<<std::endl;
