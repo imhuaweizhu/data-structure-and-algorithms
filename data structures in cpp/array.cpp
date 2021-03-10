@@ -8,6 +8,7 @@
 template <class InputIterator>
 void print(InputIterator start, InputIterator end)
 {
+    //start and end are iterators(pointers)
     for(auto itr=start;itr!=end;++itr)
     {
         //print the element giving the address of element, pay attention to the "*" sign.
@@ -58,7 +59,7 @@ void std_vector()
 {
   
     // Create a vector containing integers
-    std::vector<int> test_vector = { 7, 5, 16, 8 };
+    std::vector<int> test_vector = { 7, 5, 16};
  
     // Add two more integers to vector
     test_vector.push_back(25);
@@ -86,7 +87,7 @@ int main ()
   // static linear data structure, fixed size
   std_array();
   
-  // dynamic size
+  // dynamic array, size inscreases.
   std_vector();
   
   // return
