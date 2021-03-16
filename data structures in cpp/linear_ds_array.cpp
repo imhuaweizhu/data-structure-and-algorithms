@@ -37,7 +37,7 @@ void build_in_array()
 //=========================================================================================
 // array from container library array
 // More detail about this can be found at https://en.cppreference.com/w/cpp/container/array
-void stl_array()
+void std_array()
 {
   // Initialize an array
   std::array<int,3> test_array{10,20,30};
@@ -56,7 +56,7 @@ void stl_array()
 // Elements in std::array are arranged in a contiguous memory allocation, std::array has fixed size
 // std::vector is dynamic memory allocated, size increases with insertion of elements.
 // check this link for more detail: https://www.geeksforgeeks.org/vector-in-cpp-stl/
-void stl_vector()
+void std_vector()
 {
   
     // Create a vector containing integers
@@ -86,11 +86,11 @@ int main ()
   
   // 2nd way
   // fixed size, static linear data structure
-  stl_array();
+  std_array();
   
   // 3rd way
   // dynamic size, size inscreases.
-  stl_vector();
+  std_vector();
   
   // return
   return 0;
