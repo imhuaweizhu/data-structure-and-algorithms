@@ -77,17 +77,18 @@ void std_vector()
   =================================*/
 int main ()
 {
-  // two ways to create an array in C++
+  // 3 ways to create an array in C++
   
-  // first way
-  // static linear data structure, fixed size
+  // 1st way
+  // fixed size, static linear data structure
   build_in_array();
   
-  // second way
-  // static linear data structure, fixed size
+  // 2nd way
+  // fixed size, static linear data structure
   std_array();
   
-  // dynamic array, size inscreases.
+  // 3rd way
+  // dynamic size, size inscreases.
   std_vector();
   
   // return
