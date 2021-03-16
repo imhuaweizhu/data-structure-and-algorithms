@@ -9,7 +9,7 @@ template <class InputIterator>
 void print(InputIterator start, InputIterator end)
 {
     //start and end are iterators(pointers)
-    for(auto itr=start;itr!=end;++itr)
+    for(auto itr=start; itr!=end; ++itr)
     {
         //print the element giving the address of element, pay attention to the "*" sign.
         std::cout<<*itr<<", ";
