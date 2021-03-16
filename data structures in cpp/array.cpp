@@ -1,6 +1,6 @@
 #include <iostream>
 #include <array> // this is required if you need to use std:array
-#include <vector> // this is required if you need to use std::array
+#include <vector> // this is required if you need to use std::vector
 
 
 //=========================================================================================
