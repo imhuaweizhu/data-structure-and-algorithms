@@ -50,7 +50,7 @@ void std_array()
 }
 
 
-
+//=========================================================================================
 // dynamic array, which is defined as std::vector 
 // std::array and std::vector are different
 // Elements in std::array are arranged in a contiguous memory allocation, std::array has fixed size
