@@ -55,6 +55,7 @@ void std_array()
 // std::array and std::vector are different
 // Elements in std::array are arranged in a contiguous memory allocation, std::array has fixed size
 // std::vector is dynamic memory allocated, size increases with insertion of elements.
+// check this link for more detail: https://www.geeksforgeeks.org/vector-in-cpp-stl/
 void std_vector()
 {
   
