@@ -161,7 +161,28 @@ Playing tricks with the input (input enhancement) or building up a cache (prestr
 For examples: Table of counts for counting sort, Boyer-Moore pattern matching, Storing often used data in a hashtable, Store often used data in a search tree (B-tree, BST, Red-black, ...), Heapify, prior to heapsort
 
 
-## Types of algorithms based on usage
+## Classifying Algorithms
+This parts refers to this webpage https://cs.lmu.edu/~ray/notes/algorithms/ authored by Professsor Ray Toal at Loyola Marymount University, course CMSI 282(https://cs.lmu.edu/~ray/classes/a/)
+
+We can classify algorithms the following ways:
+
+1. By domain
+2. By complexity class
+3. By underlying data structure
+4. By problem solving strategy (Important, refers to the part above: Patterns of algorithms)
+
+Secondary concerns include:
+1. Is the algorithm sequential or parallel?
+2. Is the algorithm deterministic or randomized?
+3. Are you looking for one solution or all solutions?
+4. Are you looking for any solution or the optimal solution?
+5. Are you looking for an exact or approximate solution?
+6. Are you computing
+    (1). Whether 𝑓(𝑥) is true or not (decision)
+    (2). The value of 𝑓(𝑥) (functional)
+    (3). Any 𝑥 such that 𝑓(𝑥)=𝑦 (constraint)
+    (4). The 𝑥 that minimizes (or maximizes) 𝑓(𝑥) (optimization)?
+
 
 ### Sorting
 ### Searching
