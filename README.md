@@ -176,7 +176,7 @@ We can classify algorithms the following ways:
 Secondary concerns include:
 1. Is the algorithm sequential or parallel?
 2. Is the algorithm deterministic or randomized?
-3. Are you looking for one solution or all solutions or top K?
+3. Are you looking for one solution or all solutions or top K solutions?
 4. Are you looking for any solution or the optimal solution?
 5. Are you looking for an exact or approximate solution?
 6. Are you computing
