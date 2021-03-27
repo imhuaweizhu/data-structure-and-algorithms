@@ -31,7 +31,7 @@ A data structure to be efficient in some operations and inefficient in others. Y
 4. Search: Find a particular data item in the given data structure.
 
 ## Types of data structures
-Modified based on a picture from https://techieshouts.com/types-of-data-structures/
+Modified based on info from https://cs.lmu.edu/~ray/notes/algds/. More data structures in c++, please refer to https://www.geeksforgeeks.org/c-data-types/, https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/, https://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/, https://www.geeksforgeeks.org/overview-of-data-structures-set-3-graph-trie-segment-tree-and-suffix-tree/, https://www.geeksforgeeks.org/abstract-data-types/
 
 
 <img src="https://user-images.githubusercontent.com/34038625/112737994-6aa26b80-8f35-11eb-8ae7-d68bbcd2a879.jpg" width="400">
