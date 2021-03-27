@@ -79,8 +79,10 @@ from https://www.bigocheatsheet.com/
 
 ## Patterns of algorithms
 
+
 By Ray Toal, a Professor of Computer Science at Loyola Marymount University 
 from https://cs.lmu.edu/~ray/notes/algpatterns/
+This isn’t a complete list, but it covers some of the more famous ones:
 
 ### Brute Force: 
 
@@ -166,8 +168,8 @@ This parts refers to this webpage https://cs.lmu.edu/~ray/notes/algorithms/ auth
 
 We can classify algorithms the following ways:
 
-1. By domain
-2. By complexity class
+1. By problem domain: sorting, searching, partitioning, network (routing, spanning trees, connectivity, flow, ...), combinatoric (permutations, combinations, subsets, ...), ... ...
+2. By complexity class: constant, linear, polynomial, ......
 3. By underlying data structure
 4. By problem solving strategy (Important, refers to the part above: Patterns of algorithms)
 
@@ -178,12 +180,7 @@ Secondary concerns include:
 4. Are you looking for any solution or the optimal solution?
 5. Are you looking for an exact or approximate solution?
 6. Are you computing
-    (1). Whether 𝑓(𝑥) is true or not (decision)
-    (2). The value of 𝑓(𝑥) (functional)
-    (3). Any 𝑥 such that 𝑓(𝑥)=𝑦 (constraint)
-    (4). The 𝑥 that minimizes (or maximizes) 𝑓(𝑥) (optimization)?
-
-
-### Sorting
-### Searching
-### Graph
+---> (1) Whether 𝑓(𝑥) is true or not (decision)
+---> (2). The value of 𝑓(𝑥) (functional)
+---> (3). Any 𝑥 such that 𝑓(𝑥)=𝑦 (constraint)
+---> (4). The 𝑥 that minimizes (or maximizes) 𝑓(𝑥) (optimization)?
