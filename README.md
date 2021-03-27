@@ -33,7 +33,8 @@ A data structure to be efficient in some operations and inefficient in others. Y
 ## Types of data structures
 Modified based on a picture from https://techieshouts.com/types-of-data-structures/
 
-<img src="https://user-images.githubusercontent.com/34038625/110526560-f0c05480-80e3-11eb-8262-3240aba2af15.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/34038625/112737994-6aa26b80-8f35-11eb-8ae7-d68bbcd2a879.jpg" width="400">
 
 
 ### Primitive Data Structure
