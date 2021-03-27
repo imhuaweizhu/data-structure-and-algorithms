@@ -15,7 +15,7 @@ from https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-f
 ## A Data structure is composed of 
 from https://en.wikipedia.org/wiki/Data_structure
 
-1. A collection of data items.
+1. A collection of data items: the elements can be Homogeneous or heterogeneous; Unordered or ordered; Linear, Hierarchical, Networked, or Non-Positional
 2. The relationships among the data items.
 3. The operations that can be applied to the data structure.
 
