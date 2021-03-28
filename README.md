@@ -1,3 +1,4 @@
+![data structure](https://user-images.githubusercontent.com/34038625/112739145-dc7fb280-8f3f-11eb-949d-189fb9b07b4d.png)
 # Data Structure
 
 ## The top data structures you should know for your next coding interview 
@@ -33,7 +34,8 @@ A data structure to be efficient in some operations and inefficient in others. Y
 ## Types of data structures
 Modified based on info from https://cs.lmu.edu/~ray/notes/algds/. More data structures in c++, please refer to https://www.geeksforgeeks.org/c-data-types/, https://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/, https://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/, https://www.geeksforgeeks.org/overview-of-data-structures-set-3-graph-trie-segment-tree-and-suffix-tree/, https://www.geeksforgeeks.org/abstract-data-types/
 
-<img src="https://user-images.githubusercontent.com/34038625/112737994-6aa26b80-8f35-11eb-8ae7-d68bbcd2a879.jpg" width="500">
+<img src="https://user-images.githubusercontent.com/34038625/112739162-0042f880-8f40-11eb-8319-772486cbdee3.png" width="500">
+
 
 ###### Pay attention to Topology.
 <img width="500" alt="Screen Shot 2021-03-27 at 8 04 22 PM" src="https://user-images.githubusercontent.com/34038625/112738265-c53cc700-8f37-11eb-92b3-892b4cb97b9a.png">
