@@ -20,7 +20,7 @@ from https://en.wikipedia.org/wiki/Data_structure
 3. The operations that can be applied to the data structure.
 
 
-## Common operations on various Data Structures
+## Most Common operations on various Data Structures
 from https://www.geeksforgeeks.org/common-operations-on-various-data-structures/
 
 A data structure to be efficient in some operations and inefficient in others. Your goal is to understand data structures so that you can pick the data structure that’s most optimal for the problem at hand.
