@@ -36,6 +36,9 @@ Modified based on info from https://cs.lmu.edu/~ray/notes/algds/. More data stru
 
 <img src="https://user-images.githubusercontent.com/34038625/112737994-6aa26b80-8f35-11eb-8ae7-d68bbcd2a879.jpg" width="400">
 
+<img width="699" alt="Screen Shot 2021-03-27 at 8 04 22 PM" src="https://user-images.githubusercontent.com/34038625/112738265-c53cc700-8f37-11eb-92b3-892b4cb97b9a.png">
+
+
 
 ### Primitive Data Structure
 Predefined data types. They are supported by all programming languages. All the programming languages like java, c#, or any object-oriented programming language are all inherited from C and C++. 
