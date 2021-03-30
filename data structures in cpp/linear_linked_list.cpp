@@ -30,7 +30,7 @@ class Node {
 
 // This function prints contents of linked list
 // starting from the given node
-void printList(Node* n)
+void print(Node* n)
 {
   while (n != NULL) 
   {
@@ -58,7 +58,7 @@ int main()
   third->data = 3; // assign data to third node
   third->next = NULL;
   
-  printList(head);
+  print(head);
   
   return 0;
 }
