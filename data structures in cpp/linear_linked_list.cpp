@@ -40,6 +40,11 @@ void print(Node* n)
   std::cout<<"\n";
 }
 
+void insert(int data)
+{
+  
+}
+
 int main()
 {
   // linked list is represented by the head, not the entire list like a static array.
