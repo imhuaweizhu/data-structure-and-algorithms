@@ -36,7 +36,7 @@ Modified based on info from https://cs.lmu.edu/~ray/notes/algds/. More data stru
 <img src="https://user-images.githubusercontent.com/34038625/112739228-7ba4aa00-8f40-11eb-833e-735c2f6df49b.jpg" width="500">
 
 
-###### Pay attention to Topology.
+###### Pay attention to Topology based on info from https://cs.lmu.edu/~ray/notes/algds/
 <img width="500" alt="Screen Shot 2021-03-27 at 8 04 22 PM" src="https://user-images.githubusercontent.com/34038625/112738265-c53cc700-8f37-11eb-92b3-892b4cb97b9a.png">
 
 
