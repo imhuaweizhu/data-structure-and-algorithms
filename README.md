@@ -76,6 +76,10 @@ from https://algs4.cs.princeton.edu/cheatsheet/
 
 <img width="600" alt="Screen-Shot-2021-01-24-at-3 02 10-PM" src="https://user-images.githubusercontent.com/34038625/110528531-3ed65780-80e6-11eb-982b-67e68e38398e.png">
 
+The following picture comes from Course Stanford University CS161 Lecture 2 by Dr. Michael P. Kim April 1st, 2015
+
+<img width="936" alt="Screen Shot 2021-03-31 at 2 58 14 PM" src="https://user-images.githubusercontent.com/34038625/113197019-26171880-9232-11eb-9b41-6ae830c0ef77.png">
+
 ## Efficiency of different data structures
 from https://www.bigocheatsheet.com/
 
