@@ -43,7 +43,9 @@ class LinkedList
       head = NULL;
     }
     // destructor
-    ~LinkedList() {}; 
+    ~LinkedList() 
+    {
+    }; 
     // add a node
     void add_node(int value);
     void reverse_list();
