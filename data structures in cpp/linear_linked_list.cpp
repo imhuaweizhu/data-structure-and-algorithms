@@ -20,50 +20,105 @@ Drawbacks:
 
 Reference: https://www.geeksforgeeks.org/linked-list-set-1-introduction/
 */
+// Linkedlist implementation using Classes in C++
 #include <iostream>
+using namespace std;
 
-class Node {
+class Node 
+{
   public:
     int data;
     Node* next;
 };
 
-// This function prints contents of linked list
-// starting from the given node
-void print(Node* n)
+
+class LinkedList
 {
-  while (n != NULL) 
+  //By default, it's private
+  Node* head;
+  public:
+    // constructor
+    LinkedList() 
+    { 
+      head = NULL;
+    }
+    // destructor
+    ~LinkedList() {}; 
+    // add a node
+    void add_node(int value);
+    void reverse_list();
+    void print();
+};
+
+
+void LinkedList::add_node(int val)
+{
+  // set up a new node
+  Node* newnode = new Node();
+  newnode->data = val;
+  newnode->next = NULL;
+  // put the new node in the right position in the list
+  if (head == NULL) 
   {
-    std::cout << n->data << " ";
-    n = n->next;
+    head = newnode;
   }
-  std::cout<<"\n";
+  else 
+  {
+    Node* temp = head; // head is not NULL
+    while (temp->next != NULL) 
+    { 
+      temp = temp->next; // go to end of list
+    }
+    temp->next = newnode; // linking to newnode
+  }
 }
 
-void insert(int data)
+// reverse the Linked List
+void LinkedList::reverse_list() 
 {
-  
+  Node* temp = head;
+  Node* nextnode = NULL;
+  Node* revnode = NULL;
+  while (temp != NULL) 
+  {
+    head = temp;
+    nextnode = temp->next;
+    temp->next = revnode;
+    revnode = temp;
+    temp = nextnode;
+  }
 }
 
-int main()
-{
-  // linked list is represented by the head, not the entire list like a static array.
-  
-// allocate 3 nodes in the heap
-  Node* head = new Node();
-  Node* second = new Node();
-  Node* third = new Node();
-  
-  head->data = 1; // assign data in first node
-  head->next = second; // Link first node with second
-  
-  second->data = 2; // assign data to second node
-  second->next = third;
-  
-  third->data = 3; // assign data to third node
-  third->next = NULL;
-  
-  print(head);
-  
-  return 0;
+void LinkedList::print() {
+    if (head == NULL) {
+        cout << "List is empty!" << endl;
+    }
+    else {
+        Node* temp = head;
+        while (temp != NULL) {
+            cout << temp->data << " ";
+            temp = temp->next;
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+    LinkedList* list = new LinkedList();
+    list->print();
+
+    list->add_node(1);
+    list->add_node(1);
+    list->add_node(2);
+    list->add_node(5); 
+    list->add_node(8);
+    cout << "\nLinked List data: " << endl;
+    list->print();
+
+    list->reverse_list();
+    cout << "\nReversed Linked List data" << endl;
+    list->print();
+    
+    delete list;
+    return 0;
 }
