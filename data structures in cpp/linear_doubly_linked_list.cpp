@@ -111,7 +111,7 @@ void DoublyLinkedList::print_backward() {
 
 int main() {
     DoublyLinkedList* list = new DoublyLinkedList();
-    list->print();
+    list->print_forward();
 
     list->add_node(1);
     list->add_node(1);
