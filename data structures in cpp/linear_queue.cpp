@@ -1,4 +1,3 @@
-
 // CPP code to illustrate
 // Queue in Standard Template Library (STL)
 // Reference: https://www.geeksforgeeks.org/queue-cpp-stl/
@@ -32,9 +31,9 @@ int main()
     cout << "\ngquiz.size() : " << gquiz.size();
     cout << "\ngquiz.front() : " << gquiz.front();
     cout << "\ngquiz.back() : " << gquiz.back();
-  
-    cout << "\ngquiz.pop() : ";
+
     gquiz.pop();
+    cout << "\nThe queue gquiz is : ";
     showq(gquiz);
   
     return 0;
