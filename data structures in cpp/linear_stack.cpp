@@ -26,9 +26,8 @@ int main ()
     cout << "\ns.size() : " << s.size();
     cout << "\ns.top() : " << s.top();
  
- 
-    cout << "\ns.pop() : ";
     s.pop();
+    cout << "\nThe stack is : ";
     showstack(s);
  
     return 0;
