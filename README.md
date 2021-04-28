@@ -193,3 +193,37 @@ Secondary concerns include:
 ---> (2). The value of 𝑓(𝑥) (functional)
 ---> (3). Any 𝑥 such that 𝑓(𝑥)=𝑦 (constraint)
 ---> (4). The 𝑥 that minimizes (or maximizes) 𝑓(𝑥) (optimization)?
+
+## Algorithms in job interviews (C++)
+
+Reference: https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/
+
+### Searching
+
+1. Linear search
+2. Binary search
+3. Ternary search
+
+### Sorting
+
+1. Bubble sort
+2. Selection sort
+3. Insertion sort
+4. Merge sort
+5. Quick sort
+6. Counting sort
+7. Radix sort
+8. Heap sort
+9. Bucket sort
+
+### Graph algorithms
+
+1. Breadth First Search
+2. Depth First Search
+3. Minimum Spanning Tree
+4. Shortest Path Algorithms
+5. Flood-fill Algorithm
+6. Articulation Points and Bridges
+7. Biconnected Components
+8. 
+9.
