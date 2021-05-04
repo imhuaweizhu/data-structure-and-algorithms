@@ -200,21 +200,38 @@ Reference: https://www.hackerearth.com/practice/algorithms/searching/linear-sear
 
 ### Searching
 
-1. Linear search
-2. Binary search
-3. Ternary search
+1. Linear search: O(n)
+2. Binary search: O(log_2(n))
+3. Ternary search: O(log_3(n))
 
 ### Sorting
 
-1. Bubble sort
-2. Selection sort
+1. Bubble sort: 
+
+Let assume that we want to sort an array in ascending order. 
+
+Operation: In each iteration, starting from the beginning of the array, and compare pairs of adjacent elements and then swapping their positions if they exist in the wrong order. This ends up moving the largest element to the end of the array. No extra array is used. It's called bubble sort because the smaller elements are bubbling up to the  in each iteration
+
+Complexity: (n-1) + (n-2) + ... +1 = n(n-1)/2, thus is O(n^2).
+
+2. Selection sort: 
+
+Let assume that we want to sort an array in ascending order. 
+
+Operation: In each iteration, Initialize a minimum and find the minimum element by going through the unsorted part of the array and move the minimum to the beginning of the array. No extra array is used. It's called selection sort because it selection the minimum of the unsorted part of the array in each iteration.
+
+Complexity: (n-1) + (n-2) + ... +1 = n(n-1)/2, thus is O(n^2).
+
 3. Insertion sort
-4. Merge sort
-5. Quick sort
-6. Counting sort
-7. Radix sort
-8. Heap sort
-9. Bucket sort
+
+Let assume that we want to sort an array in ascending order. An extra array is defined to save the sorted array. 
+
+7. Merge sort
+8. Quick sort
+9. Counting sort
+10. Radix sort
+11. Heap sort
+12. Bucket sort
 
 ### Graph algorithms
 
