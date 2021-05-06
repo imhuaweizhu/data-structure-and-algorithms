@@ -1,6 +1,6 @@
 # Data Structure
 
-## The top data structures you should know for your next coding interview 
+## The top data structures you should know for your next coding interview
 from https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
 
 1. Arrays
@@ -12,7 +12,7 @@ from https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-f
 7. Tries (they are effectively trees, but it’s still good to call them out separately).
 8. Hash Tables
 
-## A Data structure is composed of 
+## A Data structure is composed of
 from https://en.wikipedia.org/wiki/Data_structure
 
 1. A collection of data items: the elements can be Homogeneous or heterogeneous; Unordered or ordered; Linear, Hierarchical, Networked, or Non-Positional
@@ -42,7 +42,7 @@ Modified based on info from https://cs.lmu.edu/~ray/notes/algds/. More data stru
 
 
 ### Primitive Data Structure
-Predefined data types. They are supported by all programming languages. All the programming languages like java, c#, or any object-oriented programming language are all inherited from C and C++. 
+Predefined data types. They are supported by all programming languages. All the programming languages like java, c#, or any object-oriented programming language are all inherited from C and C++.
 
 For example: Integer, Float, Char, Boolean, Pointer
 
@@ -88,54 +88,53 @@ from https://www.bigocheatsheet.com/
 
 ## Patterns of algorithms
 
-
-By Ray Toal, a Professor of Computer Science at Loyola Marymount University 
+By Ray Toal, a Professor of Computer Science at Loyola Marymount University
 from https://cs.lmu.edu/~ray/notes/algpatterns/
 This isn’t a complete list, but it covers some of the more famous ones:
 
-### Brute Force: 
+### Brute Force:
 
 Enumerate all possible solutions, **unintelligently**, and try them all until you find a solution. Not really a “pattern”. You could in theory, do Traveling Salesperson, Knapsack, or Subset Sum this way, but don’t.
 
 ### The Greedy Method
 
-Solving a problem by doing the "best looking" thing at each step. (May miss a solution, or may miss the optimal one. But in some cases where it is known to work, it is a great approach.). 
+Solving a problem by doing the "best looking" thing at each step. (May miss a solution, or may miss the optimal one. But in some cases where it is known to work, it is a great approach.).
 
 For example: Minimum Spanning Trees, Huffman Compression, Dijkstra’s Shortest Path and etc.
 
 ### Dynamic Programming
 
-Solving an optimization problem by breaking down a problem into multiple **overlapping** subproblems, not independent ones. Solve the subproblems (recursively), and combine those solutions into a solution for the original problem. **The idea is to cache the results of overlapping subproblems**. Can be done bottom up (table construction) or top-down (recursive with memoization). 
+Solving an optimization problem by breaking down a problem into multiple **overlapping** subproblems, not independent ones. Solve the subproblems (recursively), and combine those solutions into a solution for the original problem. **The idea is to cache the results of overlapping subproblems**. Can be done bottom up (table construction) or top-down (recursive with memoization).
 
 For example: Integer knapsack, Traveling salesperson and etc.
 
 ### Divide and Conquer
 
-Breaking down a problem into multiple **independent** subproblems, solving the subproblems (recursively), and combining those solutions into a solution for the original problem. 
+Breaking down a problem into multiple **independent** subproblems, solving the subproblems (recursively), and combining those solutions into a solution for the original problem.
 
 For example: Mergesort, quicksort, Matrix Multiplication, FFT, Nearest Neighbors and etc.
 
 ### Decrease and Conquer
 
-A variant of divide and conquer, where the problem is broken down into **one** subproblem, not multiple subproblems. 
+A variant of divide and conquer, where the problem is broken down into **one** subproblem, not multiple subproblems.
 
 For example: Binary search, Selection Sort, Factorial, Topological Sort and etc.
 
 ### Backtracking
 
-A method for systematically generating possible solutions to a problem in which you sometimes have to **back up** when realizing your paritally generated candidate **can’t** possibly be extended to a real solution. 
+A method for systematically generating possible solutions to a problem in which you sometimes have to **back up** when realizing your paritally generated candidate **can’t** possibly be extended to a real solution.
 
 For examples: Knight’s Tour, Maze solving, Generic path finding and etc.
 
 ### Branch and Bound
 
-**Backtracking** applied to **optimization** problems. 
+**Backtracking** applied to **optimization** problems.
 
 For example: Integer programming, Nearest neighbor search, Nonlinear programming and etc.
 
 ### Particle Swarm Optimization
 
-Solving an optimization problem with a bunch of **decentralized** particles all searching for a solution with something that looks like its has **a collective organization** (e.g. ant colonies, bird flocks, animal herds, etc.). 
+Solving an optimization problem with a bunch of **decentralized** particles all searching for a solution with something that looks like its has **a collective organization** (e.g. ant colonies, bird flocks, animal herds, etc.).
 
 For examples, Neural network training, Finite element updating and etc.
 
@@ -157,7 +156,7 @@ Game playing.
 
 ### Hill Climbing
 
-Solving (or finding an approximate solution to) an optimization problem by generating candidate solutions that are (hopefully) **improvements** over the previous candidate. 
+Solving (or finding an approximate solution to) an optimization problem by generating candidate solutions that are (hopefully) **improvements** over the previous candidate.
 
 For example: **Basic Hill Climbing** chooses the "best" next step, **Genetic algorithms** choose a genetic mutation of the previous candidate. **Simulated Annealing** makes the next choice based on a particular formula used in metallurgy.
 
@@ -206,17 +205,17 @@ Reference: https://www.hackerearth.com/practice/algorithms/searching/linear-sear
 
 ### Sorting
 
-1. Bubble sort: 
+1. Bubble sort:
 
-Let assume that we want to sort an array in ascending order. 
+Let assume that we want to sort an array in ascending order.
 
 Operation: In each iteration, starting from the beginning of the array, and compare pairs of adjacent elements and then swapping their positions if they exist in the wrong order. This ends up moving the largest element to the end of the array. No extra array is used. It's called bubble sort because the smaller elements are bubbling up to the  in each iteration
 
 Complexity: (n-1) + (n-2) + ... +1 = n(n-1)/2, thus is O(n^2).
 
-2. Selection sort: 
+2. Selection sort:
 
-Let assume that we want to sort an array in ascending order. 
+Let assume that we want to sort an array in ascending order.
 
 Operation: In each iteration, Initialize a minimum and find the minimum element by going through the unsorted part of the array and move the minimum to the beginning of the array. No extra array is used. It's called selection sort because it selection the minimum of the unsorted part of the array in each iteration.
 
@@ -224,14 +223,36 @@ Complexity: (n-1) + (n-2) + ... +1 = n(n-1)/2, thus is O(n^2).
 
 3. Insertion sort
 
-Let assume that we want to sort an array in ascending order. An extra array is defined to save the sorted array. 
+Let assume that we want to sort an array in ascending order. An extra array is defined to save the sorted array.
 
-7. Merge sort
-8. Quick sort
-9. Counting sort
-10. Radix sort
-11. Heap sort
-12. Bucket sort
+4. Merge sort
+
+Merge Sort is a Divide and Conquer sorting algorithm.
+
+Operation:  It keeps dividing the input array into two halves until each sublist consists of a single element, and then sort them and merge the two sorted halves.
+
+Complexity: NlogN
+
+5. Quick sort
+
+Quick Sort is also Divide and Conquer sorting algorithm.
+
+Operation: It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.
+
+(1). Always pick first element as pivot.
+(2). Always pick last element as pivot (implemented below)
+(3). Pick a random element as pivot.
+(4). Pick median as pivot.
+
+Complexity: NlogN
+
+6. Counting sort
+
+7. Radix sort
+
+8. Heap sort
+
+9. Bucket sort
 
 ### Graph algorithms
 
@@ -242,5 +263,5 @@ Let assume that we want to sort an array in ascending order. An extra array is d
 5. Flood-fill Algorithm
 6. Articulation Points and Bridges
 7. Biconnected Components
-8. 
+8.
 9.
