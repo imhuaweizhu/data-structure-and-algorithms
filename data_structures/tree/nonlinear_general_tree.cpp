@@ -1,4 +1,4 @@
-/* 
+/*
 Reference: http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm
 CMU course 15-111: Intermediate and Advanced Programming (2005 - 2008) by Prof. Ananda Gunawardena
 
@@ -9,7 +9,7 @@ A tree has following general properties:
 3. Each node can have arbitrary number of children.
 
 Terminology:
-Leaves: Nodes with no children. Also called external nodes. 
+Leaves: Nodes with no children. Also called external nodes.
 Internal nodes: Nodes that have at least one child.
 Siblings: Nodes with the same parent.
 
@@ -25,86 +25,79 @@ Height of a tree: the number of edges from the root to the deepest leaf.
 // CPP program to do level order traversal of a generic tree
 #include <iostream>
 #include <vector>
-  
+
 // Represents a node of an n-ary tree
 class Node
 {
-  public:
-    int key;
-    std::vector<Node*> child;
+public:
+  int key;
+  std::vector<Node *> child;
 };
 
 class GeneralTree
 {
-  public:
-    Node* root;
-    // constructor
-    GeneralTree(int data)
-    {
-      root->key = data;
-      std::vector<Node*> children_list;
-      root->child = children_list;
-    }
+public:
+  Node *root;
+  // constructor
+  GeneralTree(int data)
+  {
+    root->key = data;
+    std::vector<Node *> children_list;
+    root->child = children_list;
+  }
 
-    // deconstructor
-    ~GeneralTree()
-    {
-    };
+  // deconstructor
+  ~GeneralTree(){};
 
-    void add_child(int value, Node* parent_node);
-    void print();
-
+  void add_child(int value, Node *parent_node);
+  void print();
 };
 
-void GeneralTree::add_child(int data, Node* parent_node)
+void GeneralTree::add_child(int data, Node *parent_node)
 {
-  Node* newnode = new Node();
+  Node *newnode = new Node();
   newnode->key = data;
-  std::vector<Node*> children_list;
+  std::vector<Node *> children_list;
   newnode->child = children_list;
   (parent_node->child).push_back(newnode);
 }
 
 void print()
 {
-
-  
 }
 
-  
 // Driver program
 int main()
 {
-    /*   Let us create below tree
+  /*   Let us create below tree
     *            10
-    *        /   /    \ 
+    *        /   /    \
     *        2  34    56
     *       / \        |
     *      77  88      1
     *      |
     *      23
     */
-    GeneralTree gtree = GeneralTree(10);
-    
-    Node* temp_parent = gtree.root;
-    gtree.add_child(2, temp_parent);
-    gtree.add_child(34, temp_parent);
-    gtree.add_child(56, temp_parent);
-    std::cout<<gtree.root->child[2]->key<<"\n";
+  GeneralTree gtree = GeneralTree(10);
 
-    temp_parent = gtree.root->child[0];
-    gtree.add_child(77, temp_parent);
-    gtree.add_child(88, temp_parent);
-    std::cout<<gtree.root->child[0]->child[0]->key<<"\n";
+  Node *temp_parent = gtree.root;
+  gtree.add_child(2, temp_parent);
+  gtree.add_child(34, temp_parent);
+  gtree.add_child(56, temp_parent);
+  std::cout << gtree.root->child[2]->key << "\n";
 
-    temp_parent = gtree.root->child[2];
-    gtree.add_child(1, temp_parent);
-    std::cout<<gtree.root->child[2]->child[0]->key<<"\n";
+  temp_parent = gtree.root->child[0];
+  gtree.add_child(77, temp_parent);
+  gtree.add_child(88, temp_parent);
+  std::cout << gtree.root->child[0]->child[0]->key << "\n";
 
-    temp_parent = gtree.root->child[0]->child[0];
-    gtree.add_child(23, temp_parent);
-    std::cout<<gtree.root->child[0]->child[0]->child[0]->key<<"\n";
+  temp_parent = gtree.root->child[2];
+  gtree.add_child(1, temp_parent);
+  std::cout << gtree.root->child[2]->child[0]->key << "\n";
 
-   
-    return 0;
+  temp_parent = gtree.root->child[0]->child[0];
+  gtree.add_child(23, temp_parent);
+  std::cout << gtree.root->child[0]->child[0]->child[0]->key << "\n";
+
+  return 0;
 }
